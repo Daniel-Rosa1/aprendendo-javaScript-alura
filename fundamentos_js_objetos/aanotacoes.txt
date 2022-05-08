@@ -1,0 +1,11 @@
+DELETE:
+    ¹Importante! Veja que o delete remove do objeto o valor da propriedade, assim como a chave.
+
+    ²O valor de retorno do operador delete é um booleano, ou seja,
+    retorna sempre true ou false para cada operação. Porém,
+    é importante notar que ele não retorna false se tentarmos remover,
+    por exemplo, uma propriedade que não existe no objeto:
+
+    ³O operador delete não remove propriedades herdadas de outro objeto, e aí sim,
+    neste caso, retornará false se tentarmos fazer isso.
+    Vamos entender melhor o tema “heranças” mais adiante no curso.
